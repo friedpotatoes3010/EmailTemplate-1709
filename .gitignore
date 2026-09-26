@@ -1,0 +1,41 @@
+# Maven
+target/
+*.war
+*.ear
+*.jar
+*.jar.original
+.mvn/
+mvnw
+mvnw.cmd
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+.classpath
+.project
+.settings/
+
+# Spring Boot
+application-local.yml
+application-dev.yml
+application-prod.yml
+
+# Logs
+logs/
+*.log
+
+# Database
+*.db
+*.sqlite
+
+# Node (for frontend if needed)
+node_modules/
+dist/
+build/
