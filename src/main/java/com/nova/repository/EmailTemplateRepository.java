@@ -10,7 +10,9 @@ import java.util.List;
 import java.util.Optional;
 
 @Repository
-public interface EmailTemplateRepository extends JpaRepository<EmailTemplate, Long> {
+public interface EmailTemplateRepository
+        extends JpaRepository<EmailTemplate, Long>,
+                JpaSpecificationExecutor<EmailTemplate>{
 
     Optional<EmailTemplate> findByName(String name);
 
